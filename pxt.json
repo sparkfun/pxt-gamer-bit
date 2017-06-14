@@ -1,0 +1,20 @@
+{
+    "name": "gamerbit",
+    "version": "0.0.4",
+    "description": "Sparkfun gamer:bit blocks",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*"
+    },
+    "files": [
+        "README.md",
+        "gamerbit.cpp",
+        "gamerbit.ts",
+        "shims.d.ts",
+        "enums.d.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "public": true
+}
