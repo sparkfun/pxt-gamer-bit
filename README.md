@@ -8,6 +8,8 @@ To use this package, go to https://makecode.microbit.org, click ``Add package`` 
 
 This package is still under development and subject to changes.
 
+### ~
+
 ## Usage
 
 * Button pins are named to function.
