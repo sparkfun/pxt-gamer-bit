@@ -1,14 +1,14 @@
-# gamebit
+# gamer:bit
 
-TODO: To use this package, go to https://pxt.microbit.org, click ``Add package`` and search for **gamerbit**.
+The package adds support for the **gamer:bit** add-on board from SparkFun.
+
+To use this package, go to https://makecode.microbit.org, click ``Add package`` and search for **gamerbit**.
 
 ### ~ hint
 
-Not currently integrated into pxt.  It must be manually added.  This package is still under development and subject to changes.
+This package is still under development and subject to changes.
 
 ## Usage
-
-The package adds support for the **gamer:bit** add-on board from SparkFun.
 
 * Button pins are named to function.
 * Provides button state detection block.
