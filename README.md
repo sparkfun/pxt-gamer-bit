@@ -99,9 +99,8 @@ radio.onDataPacketReceived( ({ receivedNumber }) =>  {
 
 ### Example: Sending a packet of data over wireless
 
-The following program assembles a string that reflects the states of the buttons and ships it out over the air.
+The following program creates a bit field from the state of the buttons on the gamer:bit and sends it with the radio.  This is meant to be decoded with the moto:bit example to make a simple RC robot.
 
-TODO: Rework this example to use the gamer:bit blocks.
 
 ```blocks
 let packet = 0
