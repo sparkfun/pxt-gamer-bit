@@ -104,66 +104,58 @@ The following program assembles a string that reflects the states of the buttons
 TODO: Rework this example to use the gamer:bit blocks.
 
 ```blocks
-let packet = ""
+let packet = 0
 basic.forever(() => {
-    packet = ""
+    packet = 0
     if (gamerbit.isPressed(GamerBitPin.P0)) {
         led.plot(1, 0)
-        packet = "" + packet + "1"
+        packet = packet + 128
     } else {
         led.unplot(1, 0)
-        packet = "" + packet + "0"
     }
     if (gamerbit.isPressed(GamerBitPin.P1)) {
         led.plot(0, 1)
-        packet = "" + packet + "1"
+        packet = packet + 64
     } else {
         led.unplot(0, 1)
-        packet = "" + packet + "0"
     }
     if (gamerbit.isPressed(GamerBitPin.P2)) {
         led.plot(2, 1)
-        packet = "" + packet + "1"
+        packet = packet + 32
     } else {
         led.unplot(2, 1)
-        packet = "" + packet + "0"
     }
     if (gamerbit.isPressed(GamerBitPin.P8)) {
         led.plot(1, 2)
-        packet = "" + packet + "1"
+        packet = packet + 16
     } else {
         led.unplot(1, 2)
-        packet = "" + packet + "0"
     }
     if (gamerbit.isPressed(GamerBitPin.P12)) {
         led.plot(3, 2)
-        packet = "" + packet + "1"
+        packet = packet + 8
     } else {
         led.unplot(3, 2)
-        packet = "" + packet + "0"
     }
     if (gamerbit.isPressed(GamerBitPin.P16)) {
         led.plot(4, 2)
-        packet = "" + packet + "1"
+        packet = packet + 4
     } else {
         led.unplot(4, 2)
-        packet = "" + packet + "0"
     }
     if (gamerbit.isPressed(GamerBitPin.P5)) {
         led.plot(3, 0)
-        packet = "" + packet + "1"
+        packet = packet + 2
     } else {
         led.unplot(3, 0)
-        packet = "" + packet + "0"
     }
     if (gamerbit.isPressed(GamerBitPin.P11)) {
         led.plot(4, 0)
-        packet = "" + packet + "1"
+        packet = packet + 1
     } else {
         led.unplot(4, 0)
-        packet = "" + packet + "0"
     }
-    radio.sendString(packet)
+    radio.sendNumber(packet)
 })
 radio.setGroup(13)
 ```
