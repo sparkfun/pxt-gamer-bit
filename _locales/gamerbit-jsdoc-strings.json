@@ -1,0 +1,8 @@
+{
+  "GamerBitEvent": "The event raised by the SparkFun gamer:bit pins",
+  "GamerBitPin": "The pins used by SparkFun gamer:bit",
+  "gamerbit": "Functions to operate the SparkFun gamer:bit",
+  "gamerbit.isPressed": "Determines if a button is pressed",
+  "gamerbit.isPressed|param|button": "the pin that acts as a button",
+  "gamerbit.onEvent": "Registers code to run when a gamer:bit event is detected."
+}
