@@ -1,0 +1,17 @@
+{
+  "GamerBitEvent.Click|block": "click",
+  "GamerBitEvent.Down|block": "down",
+  "GamerBitEvent.Up|block": "up",
+  "GamerBitPin.P0|block": "P0 (D-PAD up)",
+  "GamerBitPin.P11|block": "P11 (B button)",
+  "GamerBitPin.P12|block": "P12 (Y button)",
+  "GamerBitPin.P16|block": "P16 (X button)",
+  "GamerBitPin.P1|block": "P1 (D-PAD left)",
+  "GamerBitPin.P2|block": "P2 (D-PAD right)",
+  "GamerBitPin.P5|block": "P5 (A button)",
+  "GamerBitPin.P8|block": "P8 (D-PAD down)",
+  "gamerbit.isPressed|block": "gamer:bit %button|is pressed",
+  "gamerbit.onEvent|block": "gamer:bit on %button|%event",
+  "gamerbit|block": "gamerbit",
+  "{id:category}Gamerbit": "Gamerbit"
+}

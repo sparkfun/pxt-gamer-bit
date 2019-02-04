@@ -1,0 +1,17 @@
+{
+  "GamerBitEvent.Click|block": "cliqué",
+  "GamerBitEvent.Down|block": "appuyé",
+  "GamerBitEvent.Up|block": "relaché",
+  "GamerBitPin.P0|block": "P0 (haut du D-PAD)",
+  "GamerBitPin.P11|block": "P11 (bouton B)",
+  "GamerBitPin.P12|block": "P12 (bouton Y)",
+  "GamerBitPin.P16|block": "P16 (bouton X)",
+  "GamerBitPin.P1|block": "P1 (gauche du D-PAD)",
+  "GamerBitPin.P2|block": "P2 (droite du D-PAD)",
+  "GamerBitPin.P5|block": "P5 (bouton A)",
+  "GamerBitPin.P8|block": "P8 (bas du D-PAD)",
+  "gamerbit.isPressed|block": "gamer:bit appuyer sur app%button|",
+  "gamerbit.onEvent|block": "gamer:bit sur %button|%event",
+  "gamerbit|block": "gamerbit",
+  "{id:category}Gamerbit": "Gamerbit"
+}

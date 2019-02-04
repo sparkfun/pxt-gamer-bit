@@ -11,7 +11,9 @@
         "gamerbit.cpp",
         "gamerbit.ts",
         "shims.d.ts",
-        "enums.d.ts"
+        "enums.d.ts",
+        "_locales/fr/gamerbit-strings.json",
+        "_locales/fr/gamerbit-jsdoc-strings.json"
     ],
     "testFiles": [
         "test.ts"
