@@ -1,9 +1,9 @@
 {
-  "GamerBitEvent": "The event raised by the SparkFun gamer:bit pins",
-  "GamerBitPin": "The pins used by SparkFun gamer:bit",
-  "gamerbit": "Functions to operate the SparkFun gamer:bit",
-  "gamerbit.isPressed": "Lancer des instructions suivant un évènement sur le gamer:bit.",
-  "gamerbit.isPressed|param|button": "the pin that acts as a button",
-  "gamerbit.onEvent": "Déterminer les instructions à lancer lorsque d'un évènement donné sur le gamer:bit.
+  "GamerBitEvent": "Les évènements déclenchés par les broches du gamer:bit de SparkFun.",
+  "GamerBitPin": "Les broches utilisées par le gamer:bit de SparkFun.",
+  "gamerbit": "Les fonction pour piloter le gamer:bit de SparkFun.",
+  "gamerbit.isPressed": "Lancer les instructions suivant un évènement sur le gamer:bit.",
+  "gamerbit.isPressed|param|button": "La broche qui fait office de bouton.",
+  "gamerbit.onEvent": "Déterminer les instructions à lancer lors d'un évènement donné sur le gamer:bit.
 "
 }
