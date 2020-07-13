@@ -2,7 +2,7 @@
 
 ![SparkFun Gamer:bit](https://raw.githubusercontent.com/sparkfun/pxt-gamer-bit/master/icon.png)  
 
-The package adds support for the **gamer:bit** add-on board from SparkFun.
+The package adds support for the controller:bit and **gamer:bit** add-on board from SparkFun.
 
 To use this package, go to https://makecode.microbit.org, click ``Add package`` and search for **gamerbit**.
 
