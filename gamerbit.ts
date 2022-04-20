@@ -27,9 +27,9 @@ enum GamerBitPin {
 //%
 enum GamerBitEvent {
     //% block="down"
-    Down = DAL.MICROBIT_BUTTON_EVT_DOWN,
+    Down = DAL.MICROBIT_PIN_EVT_FALL,
     //% block="up"
-    Up = DAL.MICROBIT_BUTTON_EVT_UP,
+    Up = DAL.MICROBIT_PIN_EVT_RISE,
     //% block="click"
     Click = DAL.MICROBIT_BUTTON_EVT_CLICK,
 }
@@ -69,6 +69,12 @@ namespace gamerbit {
     //% event.fieldEditor="gridpicker" event.fieldOptions.columns=3
     export function onEvent(button: GamerBitPin, event: GamerBitEvent, handler: Action) {
         init();
-        control.onEvent(<number>button, <number>event, handler); // register handler
+        if (button == GamerBitPin.P5) {
+          input.onButtonPressed(Button.A, handler)
+        } else if (button == GamerBitPin.P11) {
+          input.onButtonPressed(Button.B, handler)
+        } else {
+          control.onEvent(<number>button, <number>event, handler); // register handler
+        }
     }
 }
