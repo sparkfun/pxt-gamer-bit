@@ -8,7 +8,6 @@
     },
     "files": [
         "README.md",
-        "gamerbit.cpp",
         "gamerbit.ts",
         "shims.d.ts",
         "enums.d.ts",
@@ -18,5 +17,13 @@
     "testFiles": [
         "test.ts"
     ],
-    "public": true
+    "public": true,
+    "targetVersions": {
+        "target": "4.1.32",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj"
 }
