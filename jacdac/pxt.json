@@ -1,13 +1,13 @@
 {
-    "name": "gamer-bit-jacdac",
+    "name": "gamerbit-jacdac",
     "dependencies": {
         "core": "*",
         "radio": "*",
         "microphone": "*",
-        "pxt-gamer-bit": "github:pelikhan/pxt-gamer-bit"
+        "jacdac": "github:microsoft/pxt-jacdac#v0.10.29",
+        "jacdac-gamepad": "github:microsoft/pxt-jacdac/gamepad#v0.10.29"
     },
     "files": [
-        "main.blocks",
         "main.ts",
         "README.md"
     ],
@@ -21,5 +21,5 @@
     "supportedTargets": [
         "microbit"
     ],
-    "preferredEditor": "blocksprj"
+    "preferredEditor": "tsprj"
 }
