@@ -3,7 +3,7 @@ namespace modules {
      * SparkFun gamer:bit gamepad
      */
     //% fixedInstance whenUsed block="sparkfun gamer:bit"
-    export const sparkfunGamerbit = new GamepadClient("sparkfun gamerbit?dev=self&buttons_available=63&variant=Gamepad")
+    export const sparkfunGamerbit = new GamepadClient("sparkfun gamerbit?dev=self&buttons_available=3135&variant=Gamepad")
 }
 
 namespace userconfig { export const PIN_JACK_TX = 0xdead }
