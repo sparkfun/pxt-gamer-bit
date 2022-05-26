@@ -39,18 +39,26 @@ enum GamerBitEvent {
  */
 //% color=#f44242 icon="\uf11b"
 namespace gamerbit {
-	/**
-	 * 
-	 */
-    //% shim=gamerbit::init
+    let initialized = false
+    /**
+     * 
+     */
     function init(): void {
-        return;
+        if (!initialized) {
+            initialized = true
+            pins.pushButton(DigitalPin.P0)
+            pins.pushButton(DigitalPin.P1)
+            pins.pushButton(DigitalPin.P2)
+            pins.pushButton(DigitalPin.P8)
+            pins.pushButton(DigitalPin.P12)
+            pins.pushButton(DigitalPin.P16)
+        }
     }
 
-	/**
-	 * Determines if a button is pressed
-	 * @param button the pin that acts as a button
-	 */
+    /**
+     * Determines if a button is pressed
+     * @param button the pin that acts as a button
+     */
     //% weight=89
     //% blockId=gamerbit_ispressed block="gamer:bit %button|is pressed"
     //% button.fieldEditor="gridpicker" button.fieldOptions.columns=3
@@ -60,9 +68,9 @@ namespace gamerbit {
         return pins.digitalReadPin(<DigitalPin><number>button) == 0;
     }
 
-	/**
-	 * Registers code to run when a gamer:bit event is detected.
-	 */
+    /**
+     * Registers code to run when a gamer:bit event is detected.
+     */
     //% weight=90
     //% blockId=gamerbit_onevent block="gamer:bit on %button|%event"
     //% button.fieldEditor="gridpicker" button.fieldOptions.columns=3

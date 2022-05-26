@@ -1,0 +1,26 @@
+{
+    "name": "gamerbit-jacdac",
+    "version": "0.0.10",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "jacdac": "github:microsoft/pxt-jacdac#v0.10.41",
+        "jacdac-gamepad": "github:microsoft/pxt-jacdac/gamepad#v0.10.41"
+    },
+    "files": [
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "4.1.44",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj"
+}
