@@ -5,8 +5,8 @@
         "core": "*",
         "radio": "*",
         "microphone": "*",
-        "jacdac": "github:microsoft/pxt-jacdac#v0.10.31",
-        "jacdac-gamepad": "github:microsoft/pxt-jacdac/gamepad#v0.10.31"
+        "jacdac": "github:microsoft/pxt-jacdac#v0.10.41",
+        "jacdac-gamepad": "github:microsoft/pxt-jacdac/gamepad#v0.10.41"
     },
     "files": [
         "main.ts",
@@ -16,7 +16,7 @@
         "test.ts"
     ],
     "targetVersions": {
-        "target": "4.1.34",
+        "target": "4.1.44",
         "targetId": "microbit"
     },
     "supportedTargets": [
